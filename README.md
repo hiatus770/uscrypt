@@ -11,7 +11,22 @@ See the following points in order to use this application
 # Usage
 
 The program really only has two commands, encrypt and decrypt which is all that is needed. 
+
 Before proceeded please acknowledge that the key used for encrypting is "KEY!" and is public, change this before using uscrypt 
+
+To encrypt an input folder with the directory of `input` to an output folder of  `output` 
+Use the following command
+```
+./uscrypt encrypt input output
+```
+
+To decrypt its a similar pattern
+```
+./uscrypt decrypt input output
+```
+
+*Note that this is not been implemented to be recursive yet so all folders inside of folders will not be encrypted* 
+
 
 # Installation
 
